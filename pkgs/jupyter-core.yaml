@@ -1,7 +1,7 @@
 extends: [setuptools_package]
 
 dependencies:
-  build: []
+  build: [{{build_with}}]
   run: []
 
 sources:
