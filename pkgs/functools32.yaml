@@ -6,4 +6,4 @@ dependencies:
 
 sources:
  - key: zip:rhmcjktmgwgeegrdjv7z5yf5owjtuz6c
-   url: http://pypi.python.org/packages/source/f/functools32/functools32-3.2.3-2.zip
+   url: http://users.ices.utexas.edu/~uvilla/functools32-3.2.3-2.zip #http://pypi.python.org/packages/source/f/functools32/functools32-3.2.3-2.zip
