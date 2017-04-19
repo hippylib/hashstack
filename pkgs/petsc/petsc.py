@@ -177,6 +177,12 @@ def configure(ctx, stage_args):
     for package in stage_args['download']:
         package_name = package.strip()
         conf_lines.append('--download-%s=1' % package_name)
+        
+    if ctx.parameters['platform'] == 'Darwin':
+        print "Umberto's hack"
+        conf_lines.append('--with-clib-autodetect=0')
+        conf_lines.append('--with-cxxlib-autodetect=0')
+        conf_lines.append('--with-fortranlib-autodetect=0')
 
     # Multilinify
     for i in range(len(conf_lines) - 1):
