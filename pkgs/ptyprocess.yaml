@@ -6,4 +6,4 @@ dependencies:
 
 sources:
  - key: tar.gz:3s3y7mqzpne4ug33f433ar54rhanu6uq
-   url: https://pypi.python.org/packages/source/p/ptyprocess/ptyprocess-0.5.tar.gz
+   url: http://users.ices.utexas.edu/~uvilla/ptyprocess-0.5.tar.gz #https://pypi.python.org/packages/source/p/ptyprocess/ptyprocess-0.5.tar.gz
