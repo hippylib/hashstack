@@ -1,4 +1,4 @@
-extends: [pip_package]
+extends: [setuptools_package]
 
 dependencies:
   build: [ptyprocess,tornado]
@@ -6,4 +6,4 @@ dependencies:
 
 sources:
  - key: tar.gz:mpujh37rxkcpd3t4jp6mu5twxio6mokf
-   url: https://pypi.python.org/packages/source/t/terminado/terminado-0.5.tar.gz
+   url: http://users.ices.utexas.edu/~uvilla/terminado-0.5.tar.gz #https://pypi.python.org/packages/source/t/terminado/terminado-0.5.tar.gz
