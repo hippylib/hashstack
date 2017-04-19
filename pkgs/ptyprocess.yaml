@@ -1,4 +1,4 @@
-extends: [pip_package]
+extends: [setuptools_package]
 
 dependencies:
   build: []
