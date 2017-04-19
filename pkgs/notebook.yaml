@@ -2,7 +2,7 @@ extends: [setuptools_package]
 
 dependencies:
   build: [functools32, ipython-genutils]
-  run: [functools, functools32, ipython-genutils]
+  run: [functools32, ipython-genutils]
 
 sources:
  - key: tar.gz:wwlug65dgu4ceeai4ip6u4onahw2twqv
