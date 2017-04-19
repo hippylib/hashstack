@@ -179,7 +179,6 @@ def configure(ctx, stage_args):
         conf_lines.append('--download-%s=1' % package_name)
         
     if ctx.parameters['platform'] == 'Darwin':
-        print "Umberto's hack"
         conf_lines.append('--with-clib-autodetect=0')
         conf_lines.append('--with-cxxlib-autodetect=0')
         conf_lines.append('--with-fortranlib-autodetect=0')
