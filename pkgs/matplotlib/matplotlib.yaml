@@ -4,7 +4,7 @@ dependencies:
   run: [freetype, numpy, png, python-dateutil, pyparsing, six]
 
 sources:
-- key: git:26382a72ea234ee0efd40543c8ae4a30cffc4f0d
+- key: git:21f46ff14ea65eeb725a4fd6c36642dddf3fea79
   url: https://github.com/matplotlib/matplotlib.git
 
 build_stages:
