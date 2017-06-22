@@ -4,24 +4,31 @@ dependencies:
   when platform == 'linux':
     build: [blas, boost, bzip2, dijitso, eigen, ffc, fiat, instant, libxml2, mpi, numpy,
             pkg-config, ply, python, six, swig, sympy, ufl, zlib,
-            patchelf,
+            patchelf, setuptools,
             {{build_with}}]
 
   when platform != 'linux':
     build: [blas, boost, bzip2, dijitso, eigen, ffc, fiat, instant, libxml2, mpi, numpy,
-            pkg-config, ply, python, six, swig, sympy, ufl, zlib,
+            pkg-config, ply, python, six, swig, sympy, ufl, zlib, setuptools,
             {{build_with}}]
 
   run: [ply]
 
-sources:
-- key: tar.gz:xmttdvmoy32w3mxtkqkb6srlw3bawz5o
-  url: https://bitbucket.org/fenics-project/dolfin/downloads/dolfin-2016.2.0.tar.gz
+when version == '2017.1.0':
+  sources:
+  - key: tar.gz:xj4tulkbtfowltso5huvlyddiktdk4lu
+    url: https://bitbucket.org/fenics-project/dolfin/downloads/dolfin-2017.1.0.tar.gz
+
+when version == '2016.2.0':
+  sources:
+  - key: tar.gz:xmttdvmoy32w3mxtkqkb6srlw3bawz5o
+    url: https://bitbucket.org/fenics-project/dolfin/downloads/dolfin-2016.2.0.tar.gz
 
 
 defaults:
   # share/dolfin/DOLFINConfig.cmake contains hard-coded path
   relocatable: false
+  version: '2016.2.0'
 
 build_stages:
 - when: with_find_path
@@ -50,6 +57,14 @@ build_stages:
   mode: replace
   after: set_python_version
   build_type: {{build_type}}
+
+- when: version == '2017.1.0'
+  name: generate-swig-interface
+  after: prologue
+  before: setup_builddir
+  handler: bash
+  bash: |
+    $PYTHON cmake/scripts/generate-swig-interface.py
 
 - when: platform == 'linux'
   name: fix-rpath

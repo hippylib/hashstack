@@ -4,13 +4,20 @@ dependencies:
   # FIXME: Find a better way than including petsc and slepc here
   build: [pkg-config, python, boost, dolfin, gmp, mpfr, mpi, swig, petsc, slepc, {{build_with}}]
 
-sources:
-- key: tar.gz:m4wkxp4w33t52pfgia6g2sywrprdxl3k
-  url: https://bitbucket.org/fenics-project/mshr/downloads/mshr-2016.2.0.tar.gz
+when version == '2017.1.0':
+  sources:
+  - key: tar.gz:5qjs3pcmkru5r6bi7rofo3bzypkfzmrr
+    url: https://bitbucket.org/fenics-project/mshr/downloads/mshr-2017.1.0.tar.gz
+
+when version == '2016.2.0':
+  sources:
+  - key: tar.gz:m4wkxp4w33t52pfgia6g2sywrprdxl3k
+    url: https://bitbucket.org/fenics-project/mshr/downloads/mshr-2016.2.0.tar.gz
 
 defaults:
   # lib/CMake/mshr/mshr-config.cmake contains hard-coded path
   relocatable: false
+  version: '2016.2.0'
 
 build_stages:
 - when: platform == 'Darwin'
