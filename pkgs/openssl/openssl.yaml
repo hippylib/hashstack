@@ -10,7 +10,7 @@ dependencies:
 # whenever an update appears. Use github to download.
 sources:
 - key: tar.gz:46x7fev6ehbftrvpezdjy6u3horg5gv2
-  url: https://github.com/openssl/openssl/archive/OpenSSL_1_0_2j.tar.gz 
+  url: http://github.com/openssl/openssl/archive/OpenSSL_1_0_2j.tar.gz 
 
 defaults:
   relocatable: false
