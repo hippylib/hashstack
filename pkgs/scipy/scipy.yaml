@@ -38,8 +38,8 @@ build_stages:
       [mkl]
       library_dirs = ${MKLPATH}
       include_dirs = ${MKLROOT}/include
-      mkl_libs = mkl_intel_lp64, mkl_sequential, mkl_core
-      lapack_libs = mkl_intel_lp64, mkl_sequential, mkl_core
+      mkl_libs = mkl_rt
+      lapack_libs = mkl_rt
       EOF
 
   - when: with_mkl
