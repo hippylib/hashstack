@@ -5,5 +5,5 @@ dependencies:
   run: []
 
 sources:
- - key: zip:awsxibni7ukjgvqupt5f4vc333xnqw7v
+ - key: zip: 6gebfr77gic7vyc47lpeykbbpunnkekg
    url: https://github.com/jupyter/jupyter_client/archive/4.1.1.zip
