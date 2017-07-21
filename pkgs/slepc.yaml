@@ -5,7 +5,7 @@ dependencies:
 when version == '3.7.3':
   sources:
   - key: tar.gz:h343zrsfuegbo6ovnm2qarzm5ntn62jo
-    url: http://slepc.upv.es/download/download.php?filename=slepc-3.7.3.tar.gz
+    url: http://slepc.upv.es/download/distrib/slepc-3.7.3.tar.gz
 when version == '3.6.1':
   sources:
   - key: tar.gz:ycrzs42hcrfrixwg66b75lofaikcr4c2
