@@ -4,7 +4,7 @@ dependencies:
   build: [zlib, bzip2, curl, openssl, libidn, expat, ncurses]
 
 sources:
-- key: tar.gz:dcnogktkyomlwl2shltx64gumotfjgjg
+- key: tar.gz:uz654w6qx4rna4plzq3e437ogo2cpy57
   url: https://github.com/Kitware/CMake/archive/v3.6.2.tar.gz
 
 build_stages:
