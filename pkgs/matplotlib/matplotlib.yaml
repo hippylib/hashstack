@@ -4,7 +4,7 @@ dependencies:
   run: [freetype, numpy, png, python-dateutil, pyparsing, six]
 
 sources:
-- key: tar.gz:21f46ff14ea65eeb725a4fd6c36642dddf3fea79
+- key: tar.gz:ym2mlxgnu6ieepq6n26fvgsefkreeoeu
   url: https://github.com/matplotlib/matplotlib/archive/v1.5.2.tar.gz
 
 build_stages:
