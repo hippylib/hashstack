@@ -12,6 +12,7 @@ build_stages:
     mode: replace
     after: prologue
     handler: bash
+    files: [Makefile]
     bash: |
       cp _hashdist/Makefile Makefile
       cat > SuiteSparse_config/SuiteSparse_config.mk << EOF
