@@ -1,0 +1,8 @@
+extends: [pip_package]
+dependencies:
+  build: [six]
+  run: [six]
+  
+sources:
+  - key: tar.gz:ebz4jwhztb4yuoykri3r45gzqshq4uut
+    url: https://github.com/matplotlib/cycler/archive/v0.10.0.tar.gz
