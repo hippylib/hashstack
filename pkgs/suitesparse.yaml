@@ -5,7 +5,7 @@ dependencies:
 
 sources:
   - url: http://faculty.cse.tamu.edu/davis/SuiteSparse/SuiteSparse-4.4.6.tar.gz
-    key: tar.gz:so2zfcmh7yaqqcft
+    key: tar.gz:p4rfbhmhvwufazma2u367xtzz6iofdrc
 
 build_stages:
   - name: configure
