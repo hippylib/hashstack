@@ -6,6 +6,11 @@ dependencies:
 defaults:
   version: '2016.2.0'
 
+when version == '2017.2.0':
+  sources:
+  - key: tar.gz:wrong_key
+    url: https://bitbucket.org/fenics-project/dijitso/downloads/dijitso-2017.2.0.tar.gz
+
 when version == '2017.1.0':
   sources:
   - key: tar.gz:54rzkjjz2ne7xu4e2qjqfk6jiqj5jbok
