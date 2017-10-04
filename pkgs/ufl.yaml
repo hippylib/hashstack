@@ -6,6 +6,11 @@ dependencies:
 default:
   version: '2016.2.0'
 
+when version == '2017.2.0':
+  sources:
+  - key: tar.gz:na
+    url: https://bitbucket.org/fenics-project/ufl/downloads/ufl-2017.2.0.tar.gz
+
 when version == '2017.1.0':
   sources:
   - key: tar.gz:v6d7uehusjta5doz6xecbqbvfhqbpoal
