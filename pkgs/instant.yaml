@@ -6,6 +6,11 @@ dependencies:
 defaults:
   version: '2016.2.0'
 
+when version == '2017.2.0':
+  sources:
+  - key: tar.gz:mmmh
+    url: https://bitbucket.org/fenics-project/instant/downloads/instant-2017.2.0.tar.gz
+
 when version == '2017.1.0':
   sources:
   - key: tar.gz:hd2wxwnfqniy7mbdvef6nue2cfgxji3m
