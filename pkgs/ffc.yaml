@@ -3,6 +3,11 @@ dependencies:
   build: [dijitso, fiat, instant, numpy, six, ufl]
   run: [dijitso, fiat, instant, numpy, six, ufl]
 
+when version == '2017.2.0':
+  sources:
+  - key: tar.gz:wrong_key
+    url: https://bitbucket.org/fenics-project/ffc/downloads/ffc-2017.2.0.tar.gz
+
 when version == '2017.1.0':
   sources:
   - key: tar.gz:ebz4jwhztb4yuoykri3r45gzqshq4uut
