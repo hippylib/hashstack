@@ -8,7 +8,7 @@ defaults:
 
 when version == '2017.2.0':
   sources:
-  - key: tar.gz:mmmh
+  - key: tar.gz:top6dag7fzfgraex6klussglwektbob7
     url: https://bitbucket.org/fenics-project/instant/downloads/instant-2017.2.0.tar.gz
 
 when version == '2017.1.0':
