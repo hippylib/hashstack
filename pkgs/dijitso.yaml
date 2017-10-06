@@ -8,7 +8,7 @@ defaults:
 
 when version == '2017.2.0':
   sources:
-  - key: tar.gz:wrong_key
+  - key: tar.gz:ese6bhdkmwrx73qk47hsebgczss55frd
     url: https://bitbucket.org/fenics-project/dijitso/downloads/dijitso-2017.2.0.tar.gz
 
 when version == '2017.1.0':
