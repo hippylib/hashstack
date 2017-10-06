@@ -8,7 +8,7 @@ default:
 
 when version == '2017.2.0':
   sources:
-  - key: tar.gz:na
+  - key: tar.gz:tnshz2kzobxj4t6o2khaz5guvjictmnb
     url: https://bitbucket.org/fenics-project/ufl/downloads/ufl-2017.2.0.tar.gz
 
 when version == '2017.1.0':
