@@ -8,7 +8,7 @@ defaults:
 
 when version == '2017.2.0':
   sources:
-  - key: tar.gz:boh
+  - key: tar.gz:4rthmrv2ob52ptiktsxt5hnam2dpxold
     url: https://bitbucket.org/fenics-project/fiat/downloads/fiat-2017.2.0.tar.gz
 
 when version == '2017.1.0':
