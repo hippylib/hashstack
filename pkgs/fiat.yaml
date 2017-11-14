@@ -3,9 +3,6 @@ dependencies:
   build: [numpy, sympy]
   run: [numpy, sympy]
 
-defaults:
-  version: '2016.2.0'
-
 when version == '2017.2.0':
   sources:
   - key: tar.gz:4rthmrv2ob52ptiktsxt5hnam2dpxold
@@ -25,3 +22,6 @@ when version == '2016.1.0':
   sources:
   - key: tar.gz:qulsgetkog6bvyw4jllosmyl3g2u2uw3
     url: https://bitbucket.org/fenics-project/fiat/downloads/fiat-2016.1.0.tar.gz
+    
+defaults:
+  version: '2016.2.0'
