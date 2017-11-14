@@ -3,9 +3,6 @@ dependencies:
   build: [numpy, six]
   run: [numpy, six]
 
-default:
-  version: '2016.2.0'
-
 when version == '2017.2.0':
   sources:
   - key: tar.gz:tnshz2kzobxj4t6o2khaz5guvjictmnb
@@ -25,3 +22,6 @@ when version == '2016.1.0':
   sources:
     - key: tar.gz:rxgp4egreun2jcsniosmnse2xydwhebc
       url: https://bitbucket.org/fenics-project/ufl/downloads/ufl-2016.1.0.tar.gz
+      
+default:
+  version: '2016.2.0'
