@@ -3,9 +3,6 @@ dependencies:
   build: [mpi4py, numpy, six, subprocess32]
   run: [mpi4py, numpy, six, subprocess32]
 
-defaults:
-  version: '2016.2.0'
-
 when version == '2017.2.0':
   sources:
   - key: tar.gz:ese6bhdkmwrx73qk47hsebgczss55frd
@@ -25,3 +22,6 @@ when version == '2016.1.0':
   sources:
   - key: tar.gz:amakzmnzx6kojxrgbznuf5jklopvcwsw
     url: https://bitbucket.org/fenics-project/dijitso/downloads/dijitso-2016.1.0.tar.gz
+    
+defaults:
+  version: '2016.2.0'
