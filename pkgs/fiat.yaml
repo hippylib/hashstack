@@ -21,7 +21,7 @@ when version == '2016.2.0':
   - key: tar.gz:qexm6eaccg6gqdtuxg3fi2rvn36yxytk
     url: https://bitbucket.org/fenics-project/fiat/downloads/fiat-2016.2.0.tar.gz
 
-when version == '2016.2.0':
+when version == '2016.1.0':
   sources:
   - key: tar.gz:qulsgetkog6bvyw4jllosmyl3g2u2uw3
     url: https://bitbucket.org/fenics-project/fiat/downloads/fiat-2016.1.0.tar.gz
