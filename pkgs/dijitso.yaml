@@ -20,3 +20,8 @@ when version == '2016.2.0':
   sources:
   - key: tar.gz:dp5avqgupwxhlo66r6v3cfc5hsvc43bi
     url: https://bitbucket.org/fenics-project/dijitso/downloads/dijitso-2016.2.0.tar.gz
+    
+when version == '2016.1.0':
+  sources:
+  - key: tar.gz:amakzmnzx6kojxrgbznuf5jklopvcwsw
+    url: https://bitbucket.org/fenics-project/dijitso/downloads/dijitso-2016.1.0.tar.gz
