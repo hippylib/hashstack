@@ -26,7 +26,7 @@ when version == '2016.1.0':
 defaults:
   version: '2016.2.0'
   when version == '2016.1.0':
-    relocatable = false
+    relocatable: false
 
 when_build_dependency:
 - prepend_path: PATH
