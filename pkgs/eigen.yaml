@@ -1,10 +1,5 @@
 extends: [cmake_package]
 
-defaults:
-  # share/pkgconfig/eigen3.pc contains hard-coded path
-  relocatable: false
-  version: '3.2.1'
-
 when version == '3.3.3':
   sources:
   - key: tar.bz2:uqkd7rc6irkljompz2rvc2z2pg4m3m54
@@ -14,3 +9,8 @@ when version == '3.2.1':
   sources:
   - key: tar.bz2:m3tpf3phruhpmufoswvfod2urqevnefq
     url: http://bitbucket.org/eigen/eigen/get/3.2.1.tar.bz2
+
+defaults:
+  # share/pkgconfig/eigen3.pc contains hard-coded path
+  relocatable: false
+  version: '3.2.1'
