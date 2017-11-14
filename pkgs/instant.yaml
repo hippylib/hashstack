@@ -3,9 +3,6 @@ dependencies:
   build: [numpy, six, subprocess32]
   run: [cmake, flufl_lock, numpy, swig, six, subprocess32]
 
-defaults:
-  version: '2016.2.0'
-
 when version == '2017.2.0':
   sources:
   - key: tar.gz:top6dag7fzfgraex6klussglwektbob7
@@ -25,3 +22,6 @@ when version == '2016.1.0':
   sources:
     - key: tar.gz:ppydzct3mh6r4qzlr45aibkbbltirexl
       url: https://bitbucket.org/fenics-project/instant/downloads/instant-2016.1.0.tar.gz
+
+defaults:
+  version: '2016.2.0'
