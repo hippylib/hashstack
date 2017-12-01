@@ -11,7 +11,6 @@ build_stages:
   bash: |
     sed -i -e "s|.*GNUC.*|& \&\& !defined(__INTEL_COMPILER)|" pcrecpp.cc
 
-build_stages:
 - name: configure
   extra: [
     "--disable-dependency-tracking",
