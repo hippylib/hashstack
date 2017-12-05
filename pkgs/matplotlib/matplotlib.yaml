@@ -6,11 +6,11 @@ dependencies:
 when version == '1.5.3':
   sources:
   - key: tar.gz:y4rhnl6bd4fxptxhg2tyhbqqhhacqtjo
-  url: https://github.com/matplotlib/matplotlib/archive/v1.5.3.tar.gz
+    url: https://github.com/matplotlib/matplotlib/archive/v1.5.3.tar.gz
 when version == '1.4.3':
   sources:
   - key: git:21f46ff14ea65eeb725a4fd6c36642dddf3fea79
-  url: https://github.com/matplotlib/matplotlib.git
+    url: https://github.com/matplotlib/matplotlib.git
   
 default:
   version: '1.5.3'
