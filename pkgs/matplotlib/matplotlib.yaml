@@ -3,6 +3,9 @@ dependencies:
   build: [bzip2, freetype, numpy, png, pkg-config, zlib, cycler]
   run: [freetype, numpy, png, python-dateutil, pyparsing, six, cycler]
 
+default:
+  version: '1.5.3'
+
 when version == '1.5.3':
   sources:
   - key: tar.gz:y4rhnl6bd4fxptxhg2tyhbqqhhacqtjo
@@ -12,8 +15,6 @@ when version == '1.4.3':
   - key: git:21f46ff14ea65eeb725a4fd6c36642dddf3fea79
     url: https://github.com/matplotlib/matplotlib.git
   
-default:
-  version: '1.5.3'
 
 build_stages:
 
