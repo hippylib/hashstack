@@ -4,8 +4,8 @@ dependencies:
 
 when version == '3.8.2':
   sources:
-  - url: https://bitbucket.org/petsc/petsc/get/v3.8.2.tar.gz
-    key: missing
+  - key: tar.gz:missing 
+    url: https://bitbucket.org/petsc/petsc/get/v3.8.2.tar.gz
 when version == '3.7.4':
   sources:
   - key: tar.gz:skvlms373heeshxp77kmz27fzcqlvefe
