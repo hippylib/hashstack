@@ -51,8 +51,8 @@ build_stages:
 
 when version == '3.8.1':
   sources:
-  - url: https://bitbucket.org/petsc/petsc4py/downloads/petsc4py-3.8.1.tar.gz
-    key: missing
+  - key: tar.gz:missing2
+    url: https://bitbucket.org/petsc/petsc4py/downloads/petsc4py-3.8.1.tar.gz
 when version == '3.7.0':
   sources:
   - key: tar.gz:4h62pjucmtb6ziqbj4st57spgbx2shln
