@@ -4,7 +4,7 @@ dependencies:
 
 when version == '3.8.2':
   sources:
-  - key: tar.gz:missing3
+  - key: tar.gz:t2wido2zhdqakdqa4nuueurryfgmesyj
     url: https://bitbucket.org/slepc/slepc/get/v3.8.2.tar.gz    
 when version == '3.7.3':
   sources:
