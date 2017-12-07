@@ -5,7 +5,7 @@ dependencies:
 
 when version == '2017.2.0':
   sources:
-  - key: tar.gz:top6dag7fzfgraex6klussglwektbob7
+  - key: tar.gz:xyspcyx5dke3ql5oaaw3rxylj4ir7vin
     url: https://bitbucket.org/fenics-project/instant/downloads/instant-2017.2.0.tar.gz
 
 when version == '2017.1.0':
