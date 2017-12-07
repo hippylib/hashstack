@@ -5,7 +5,7 @@ dependencies:
 
 when version == '2017.2.0':
   sources:
-  - key: tar.gz:4rthmrv2ob52ptiktsxt5hnam2dpxold
+  - key: tar.gz:vp2l7ltkwz3adk2j43pr5y3gjqm4g3yy
     url: https://bitbucket.org/fenics-project/fiat/downloads/fiat-2017.2.0.tar.gz
 
 when version == '2017.1.0':
