@@ -2,6 +2,10 @@ extends: [autotools_package]
 dependencies:
   build: [cmake, blas, lapack, mpi, python, {{build_with}}]
 
+when version == '3.8.x':
+  sources:
+  - key: tar.gz:ydhyzhgsh73urp2gb2kxfcvzuiqgivsy 
+    url: https://bitbucket.org/petsc/petsc/get/v3.8.2.tar.gz
 when version == '3.8.2':
   sources:
   - key: tar.gz:ydhyzhgsh73urp2gb2kxfcvzuiqgivsy 
