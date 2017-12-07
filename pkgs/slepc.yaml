@@ -2,6 +2,10 @@ extends: [autotools_package]
 dependencies:
   build: [cmake, petsc, python]
 
+when version == '3.8.x':
+  sources:
+  - key: tar.gz:t2wido2zhdqakdqa4nuueurryfgmesyj
+    url: https://bitbucket.org/slepc/slepc/get/v3.8.2.tar.gz 
 when version == '3.8.2':
   sources:
   - key: tar.gz:t2wido2zhdqakdqa4nuueurryfgmesyj
