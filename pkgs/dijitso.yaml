@@ -5,7 +5,7 @@ dependencies:
 
 when version == '2017.2.0':
   sources:
-  - key: tar.gz:ese6bhdkmwrx73qk47hsebgczss55frd
+  - key: tar.gz:awujhul7rjiam7jqhmrs4qkzfxhcqqgw
     url: https://bitbucket.org/fenics-project/dijitso/downloads/dijitso-2017.2.0.tar.gz
 
 when version == '2017.1.0':
