@@ -16,7 +16,7 @@ dependencies:
 
 when version == '2017.2.0':
   sources:
-  - key: tar.gz:eimul3s7cnr3bycjhqjz44jqzw6k7q5w
+  - key: tar.gz:rdudjmt4xhcq7ie444glwqorzfsyncbo
     url: https://bitbucket.org/fenics-project/dolfin/downloads/dolfin-2017.2.0.tar.gz
 
 when version == '2017.1.0':
