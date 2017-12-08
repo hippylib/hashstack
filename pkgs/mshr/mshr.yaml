@@ -4,6 +4,11 @@ dependencies:
   # FIXME: Find a better way than including petsc and slepc here
   build: [pkg-config, python, boost, dolfin, gmp, mpfr, mpi, swig, petsc, slepc, {{build_with}}]
 
+when version == '2017.2.0':
+  sources:
+  - key: tar.gz:missing
+url: https://bitbucket.org/fenics-project/mshr/downloads/mshr-2017.2.0.tar.gz
+
 when version == '2017.1.0':
   sources:
   - key: tar.gz:5qjs3pcmkru5r6bi7rofo3bzypkfzmrr
