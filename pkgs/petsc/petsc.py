@@ -177,6 +177,8 @@ def configure(ctx, stage_args):
     for package in stage_args['download']:
         package_name = package.strip()
         conf_lines.append('--download-%s=1' % package_name)
+        if package_name == 'strumpack':
+            conf_lines.append('--with-cxx-dialect=C++11')
         
     if ctx.parameters['platform'] == 'Darwin':
         conf_lines.append('--with-clib-autodetect=0')
