@@ -12,7 +12,7 @@ when version == '3.8.2':
     url: https://bitbucket.org/petsc/petsc/get/v3.8.2.tar.gz
 when version == '3.7.x':
   sources:
-  - key: tar.gz:sff
+  - key: tar.gz:5acewaibnnrnqz47ef2oaffx7kjm5ow7
     url: https://bitbucket.org/petsc/petsc/get/v3.7.7.tar.gz
 when version == '3.7.4':
   sources:
