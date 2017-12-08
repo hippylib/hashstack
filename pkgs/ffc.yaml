@@ -5,7 +5,7 @@ dependencies:
 
 when version == '2017.2.0':
   sources:
-  - key: tar.gz:tccasua5mxjiwliim3radidfk45jweau
+  - key: tar.gz:y7ssyvjlw27uosf2e7ldojplph73u4ta
     url: https://bitbucket.org/fenics-project/ffc/downloads/ffc-2017.2.0.tar.gz
 
 when version == '2017.1.0':
