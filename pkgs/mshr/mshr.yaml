@@ -6,7 +6,7 @@ dependencies:
 
 when version == '2017.2.0':
   sources:
-  - key: tar.gz:missing
+  - key: tar.gz:mg2rt6cbjdtytzat7rvzvsvout5pwui7
     url: https://bitbucket.org/fenics-project/mshr/downloads/mshr-2017.2.0.tar.gz
 
 when version == '2017.1.0':
