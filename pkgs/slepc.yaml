@@ -12,7 +12,7 @@ when version == '3.8.2':
     url: https://bitbucket.org/slepc/slepc/get/v3.8.2.tar.gz 
 when version == '3.7.x':
   sources:
-  - key: tar.gz:mss
+  - key: tar.gz:tfjcptpsxzpdob27hlm44taw3ei6nsri
     url: https://bitbucket.org/slepc/slepc/get/v3.7.4.tar.gz
 when version == '3.7.3':
   sources:
