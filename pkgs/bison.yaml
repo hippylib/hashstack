@@ -8,8 +8,11 @@ defaults:
   relocatable: false
 
 sources:
-  - url: http://git.savannah.gnu.org/cgit/bison.git/snapshot/bison-96748b2bf8927f4ef724823eb666c5f093df7f7a.tar.gz #http://ftp.gnu.org/gnu/bison/bison-3.0.tar.gz
-    key: tar.gz:svo5kciqxe5emwvbjng6t7jg5j5lo546  #tar.gz:4w36y5oqxgrgkxmndbkmjithrgrxbw4h
+  - url: http://ftp.gnu.org/gnu/bison/bison-3.0.tar.gz
+    key: tar.gz:4w36y5oqxgrgkxmndbkmjithrgrxbw4h
+    
+#http://git.savannah.gnu.org/cgit/bison.git/snapshot/bison-96748b2bf8927f4ef724823eb666c5f093df7f7a.tar.gz
+#tar.gz:svo5kciqxe5emwvbjng6t7jg5j5lo546
 
 when_build_dependency:
   - prepend_path: PATH
